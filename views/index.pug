@@ -1,0 +1,12 @@
+html 
+    head 
+        title PUG test 
+        link(rel="stylesheet", type="text/css", href="/css/style.css")
+    body 
+        h1 Vi siger velkommen til #{name}
+        p Her er listen af katte: 
+        ul 
+            each cat in cats 
+                li
+                    a(href="/cat/" + cat.id)= cat.name
+        include add

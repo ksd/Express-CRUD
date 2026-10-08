@@ -1,0 +1,11 @@
+html 
+    head 
+        title PUG test 
+        link(rel="stylesheet", type="text/css", href="/css/style.css")
+        script(src="/js/operations.js" defer)
+    body 
+       form
+            label Name: 
+                input(type="text", name="name", id="name", value=cat.name, data-catid=cat.id)
+            button(id="editBtn") Ret min kat
+            button(id="deleteBtn") Slet min kat

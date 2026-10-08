@@ -1,0 +1,10 @@
+h1 {
+    background-color: burlywood;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    display: block;
+    margin-top: 1em;
+}
